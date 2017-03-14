@@ -33,7 +33,7 @@
 ## Minimum SDK API 19 
 
 ## Technology included
-### Activity/Fragment, Service, AsyncTask, Handler, Recycleview, Cardview, Json, Google API Map, Local language, etc
+### Activity/Fragment, Service, AsyncTask, Handler, Recyclerview, Cardview, Json, Google API Map, Local language, etc
 ## Libraries
 ### Retrofit2, Dagger2, GreenDAO, Butterknife, Gson, etc
 
