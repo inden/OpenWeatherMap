@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="properties_baseurl">BASEURL</string>
+    <string name="properties_apikey_value">APIKEY_VALUE</string>
+    <string name="properties_apikey_param">APIKEY_PARAM</string>
+    <string name="properties_file">properties/config.properties</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sp_location_key">sp_location_key</string>
+    <string name="previousload">previousload</string>
+    <string name="request_location">request_location</string>
+    <string name="title_activity_location_weather">LocationWeatherActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Cities</string>
+    <string name="location_setting">Cities</string>
+    <string name="today">Today</string>
+    <string name="oneweek">7 days</string>
+    <string name="mxcityalert">You can register up to 20 cities.</string>
+    <string name="alert_update_fail">Unable to update data. Internet connection not available?</string>
+</resources>

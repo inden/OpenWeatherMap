@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="properties_baseurl">BASEURL</string>
+    <string name="properties_apikey_value">APIKEY_VALUE</string>
+    <string name="properties_apikey_param">APIKEY_PARAM</string>
+    <string name="properties_file">properties/config.properties</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sp_location_key">sp_location_key</string>
+    <string name="previousload">previousload</string>
+    <string name="request_location">request_location</string>
+    <string name="title_activity_location_weather">LocationWeatherActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Villes</string>
+    <string name="location_setting">Villes</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="oneweek">7 jours</string>
+    <string name="mxcityalert">On peux enregistrer jusqu\'à 20 villes.</string>
+    <string name="alert_update_fail">Mise à jour de données échouée. Internet indisponible?</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_highlighted_text_holo_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layout_location"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            >
+
+            <TextView
+                android:id="@+id/textview_cityname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rueil-Malmaison"
+                android:layout_alignParentStart="true"
+                android:layout_margin="6dp"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="FR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/textview_cityname"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:id="@+id/textview_country"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textview_cityalias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rueil-Malmaison"
+                android:layout_below="@+id/textview_cityname"
+                android:layout_alignParentStart="true"
+                android:layout_margin="6dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_detail"
+            android:name="com.in.den.android.openweather.ui.ItemFragment2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout_location"
+            tools:listitem="@layout/weatherdetail_fragment_item">
+
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_compass"
+        app:backgroundTint="@android:color/holo_orange_light" />
+
+</FrameLayout>
